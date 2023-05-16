@@ -28,16 +28,16 @@ Activité Pratique N°4 : Mise en oeuvre d'un micro-service
     Liste des comptes 
 ![Postman_Liste des comptes](https://github.com/YassineOurara/Micro-Service/assets/101317995/b46d93b2-73dc-47d9-8c45-25cd5e7d9bcc)
 
-    Trouver compte selon l'ID
+    6.1 Trouver compte selon l'ID
 
 ![Postman_Find account_Id](https://github.com/YassineOurara/Micro-Service/assets/101317995/50faba4b-e0d4-4f0d-9667-95bb47d242da)
 
-    Sauvegarder compte
+    6.2 Sauvegarder compte
 
     
 ![Postman_saveacc](https://github.com/YassineOurara/Micro-Service/assets/101317995/5a7a7179-bc76-4078-9d4f-2763cb99079a)
 
-    Mettre à jour compte
+    6.3 Mettre à jour compte
     
 ![Postman_update](https://github.com/YassineOurara/Micro-Service/assets/101317995/cf26ef1e-fb88-401a-8ad2-d6a73bdd22fb)
 
