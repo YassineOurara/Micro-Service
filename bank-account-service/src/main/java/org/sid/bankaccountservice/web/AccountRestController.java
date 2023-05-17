@@ -10,37 +10,37 @@ import java.util.UUID;
 
 @RestController
 public class AccountRestController {
-    private BankAccountRepository bankAccountRepository;
+    private BankAccountRepository BankAccountRepository;
 
     public AccountRestController (BankAccountRepository bankAccountRepository){
-        this.bankAccountRepository=bankAccountRepository;
+        this.BankAccountRepository=bankAccountRepository;
     }
     @GetMapping("/BankAccounts")
     public List<BankAccount> bankAccounts(){
-        return bankAccountRepository.findAll();
+        return BankAccountRepository.findAll();
     }
     @GetMapping("/BankAccounts/{id}")
-    public BankAccount bankAccount(@PathVariable String id){
-        return bankAccountRepository.findById(id)
+    public BankAccount BankAccount(@PathVariable String id){
+        return BankAccountRepository.findById(id)
                 .orElseThrow(()->new RuntimeException(String.format("Account %s not found",id)));
     }
     @PostMapping("/BankAccounts")
-    public BankAccount save (@RequestBody BankAccount bankAccount){
+    public BankAccount save(@RequestBody BankAccount bankAccount){
         if(bankAccount.getId()==null) bankAccount.setId(UUID.randomUUID().toString());
-        return bankAccountRepository.save(bankAccount);
+        return BankAccountRepository.save(bankAccount);
     }
 
     @PutMapping("/BankAccounts/{id}")
-    public BankAccount update (@PathVariable String id,@RequestBody BankAccount bankAccount){
-        BankAccount account = bankAccountRepository.findById(id).orElseThrow();
+    public BankAccount update(@PathVariable String id,@RequestBody BankAccount bankAccount){
+        BankAccount account = BankAccountRepository.findById(id).orElseThrow();
         if(bankAccount.getBalance()!=null) account.setBalance(bankAccount.getBalance());
         if(bankAccount.getCreatedAT()!=null) account.setCreatedAT(new Date());
         if(bankAccount.getType()!=null) account.setType(bankAccount.getType());
         if(bankAccount.getCurrency()!=null) account.setCurrency(bankAccount.getCurrency());
-        return bankAccountRepository.save(account);
+        return BankAccountRepository.save(account);
     }
     @DeleteMapping("/BankAccounts/{id}")
-    public void deleteAccount (@PathVariable String id){
-        bankAccountRepository.deleteById(id);
+    public void deleteAccount(@PathVariable String id){
+        BankAccountRepository.deleteById(id);
     }
 }
