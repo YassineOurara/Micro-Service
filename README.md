@@ -10,9 +10,14 @@ Activité Pratique N°4 : Mise en oeuvre d'un micro-service
 
     2 Créer l'entité JPA Compte
  
+ ![2](https://github.com/YassineOurara/Micro-Service/assets/101317995/f3878b79-a21e-414e-99e2-7b35d4d06807)
 
 
     3 Créer l'interface CompteRepository basée sur Spring Data
+    
+![3](https://github.com/YassineOurara/Micro-Service/assets/101317995/5fc11de3-95a1-4c49-9cd5-46fdaec8b4af)
+
+    
     4 Tester la couche DAO
     
 ![coucheDAO1](https://github.com/YassineOurara/Micro-Service/assets/101317995/1b850894-1eb2-4b4f-8d9f-16a26ecd1bcd)
