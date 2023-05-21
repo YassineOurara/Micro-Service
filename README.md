@@ -46,13 +46,46 @@ Activité Pratique N°4 : Mise en oeuvre d'un micro-service
     
 ![Postman_update](https://github.com/YassineOurara/Micro-Service/assets/101317995/cf26ef1e-fb88-401a-8ad2-d6a73bdd22fb)
 
-
-
-
-    
     
     7 Générer et tester le documentation Swagger de des API Rest du Web service
+    
+![71](https://github.com/YassineOurara/Micro-Service/assets/101317995/065f7883-a0ad-4b92-a79e-15dba452640e)    
+![72](https://github.com/YassineOurara/Micro-Service/assets/101317995/a4347458-9529-4b37-80eb-1f918908594f)
+![73](https://github.com/YassineOurara/Micro-Service/assets/101317995/aa16da40-d627-464f-8963-87b55d48f338)
+        
     8 Exposer une API Restful en utilisant Spring Data Rest en exploitant des projections
+![81](https://github.com/YassineOurara/Micro-Service/assets/101317995/7fb3d0b0-3724-4c83-97aa-404b7e6a8b2d)
+![82](https://github.com/YassineOurara/Micro-Service/assets/101317995/2b53e64d-5aac-4bf6-9a01-f70bde137697)
+![83](https://github.com/YassineOurara/Micro-Service/assets/101317995/b55b5308-880e-4ef4-b8c4-9c1d0b5a5678)
+![84](https://github.com/YassineOurara/Micro-Service/assets/101317995/87319bbe-23c6-458c-bf99-f79de61de820)
+
+    
+    
     9 Créer les DTOs et Mappers
+    
+![91](https://github.com/YassineOurara/Micro-Service/assets/101317995/e59413f8-c9b9-4a1b-9afd-59068ff3636b)    
+![92](https://github.com/YassineOurara/Micro-Service/assets/101317995/8fdf7009-9208-4639-9548-03e4c2ad8678)
+![93](https://github.com/YassineOurara/Micro-Service/assets/101317995/6139ab3f-e930-4b7b-ac39-3e46689ec86c)
+![94](https://github.com/YassineOurara/Micro-Service/assets/101317995/bc1a3490-bddc-4e72-82d7-e9ca66c4ee73)
+
+    
+    
     10 Créer la couche Service (métier) et du micro service
+    
+![101](https://github.com/YassineOurara/Micro-Service/assets/101317995/3eb811cf-8f3c-487c-a929-8c3aac3148cd)
+    
     11 Créer un Web service GraphQL pour ce micro-service
+    
+![111](https://github.com/YassineOurara/Micro-Service/assets/101317995/33a2fe09-3ac8-4ea6-a9e9-3ad85307f420)
+![112](https://github.com/YassineOurara/Micro-Service/assets/101317995/f9d96069-9527-4075-9e95-df789882d2c2)
+![113](https://github.com/YassineOurara/Micro-Service/assets/101317995/a48f9210-4e85-4020-9e65-59dec81eeb20)
+![114](https://github.com/YassineOurara/Micro-Service/assets/101317995/dc6b7315-eae2-414e-acdf-449591693633)
+![115](https://github.com/YassineOurara/Micro-Service/assets/101317995/e33f32a3-1378-46a8-a581-f0757acf25c7)
+![116](https://github.com/YassineOurara/Micro-Service/assets/101317995/5cbb3e36-8d86-42d5-8bb6-a7477f973c9f)
+![117](https://github.com/YassineOurara/Micro-Service/assets/101317995/82dbea9c-d9ba-4820-a49c-aace28590196)
+![118](https://github.com/YassineOurara/Micro-Service/assets/101317995/3090337f-7aa8-4001-9aea-c4232c0bac76)
+![119](https://github.com/YassineOurara/Micro-Service/assets/101317995/df0e7aa6-0285-41a1-ae1a-9b6db743dcad)    
+![1110](https://github.com/YassineOurara/Micro-Service/assets/101317995/0d2d9e25-1400-479f-8590-35a2db8769ec)
+
+
+
